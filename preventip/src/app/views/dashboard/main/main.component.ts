@@ -3,10 +3,10 @@ import { Color, ScaleType } from '@swimlane/ngx-charts';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './main.component.html',
+  styleUrls: ['./main.component.css']
 })
-export class AppComponent {
+export class MainComponent {
   view: [number, number] = [700, 400];
 
   // options
