@@ -8,6 +8,7 @@ import { DashboardModule } from './views/dashboard/dashboard.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialsModule } from './angular-materials/angular-materials.module';
 import { SharedModule } from './shared/shared.module';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SharedModule } from './shared/shared.module';
     DashboardModule,
     BrowserAnimationsModule,
     AngularMaterialsModule,
-    SharedModule
+    SharedModule,
+    NgxChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
